@@ -28,10 +28,13 @@ body {
   top: 1em;
   margin-bottom: 2.5em;
   width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .n-queen {
-  margin-top : 1rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,4 +219,12 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.numberbox {
+  width: 70vw;
+}
+
+#n-queen-board {
+  padding-bottom: 20px;
 }
